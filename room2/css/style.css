@@ -1,0 +1,15 @@
+.number{
+    font-size: 4rem;
+    position: absolute;
+    top: 25rem;
+    z-index:-1;
+}
+
+.card-container img {
+    transition: transform 0.3s ease; 
+}
+
+.card-container img:hover {
+    transform: translateY(-150px);
+}
+
